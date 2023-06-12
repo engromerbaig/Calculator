@@ -1,0 +1,64 @@
+/* Style the calculator screen */
+.screen {
+    width: 100%;
+    background-color: rgb(155, 155, 248);
+    color: white;
+    font-family: bold;
+    font-size: 48px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Style the calculator container */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    margin: 20px auto;
+  }
+  
+  /* Style the calculator buttons */
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Style the calculator button */
+  .buttons button {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #ccc;
+  }
+  
+  /* Style the clear button */
+  #clear {
+    border-radius: 4px;
+    background-color: red;
+    color: #fff;
+    width: 100%;
+  }
+  
+  /* Style the equal button */
+  #equal {
+    border-radius: 4px;
+    background-color: green;
+    color: #fff;
+    width: 100%;
+  }
+  
